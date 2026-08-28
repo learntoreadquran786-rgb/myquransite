@@ -1,0 +1,58 @@
+/* ==========================
+      Responsive Design
+========================== */
+
+@media (max-width:768px){
+
+    .menu-btn{
+
+        display:block;
+
+    }
+
+    .navbar{
+
+        position:absolute;
+
+        top:80px;
+
+        left:0;
+
+        width:100%;
+
+        background:#0B5D3B;
+
+        display:none;
+
+    }
+
+    .navbar.active{
+
+        display:block;
+
+    }
+
+    .nav-links{
+
+        flex-direction:column;
+
+        text-align:center;
+
+        padding:20px 0;
+
+        gap:20px;
+    }
+
+    .hero h1{
+
+        font-size:38px;
+
+    }
+
+    .hero p{
+
+        font-size:17px;
+
+    }
+
+}

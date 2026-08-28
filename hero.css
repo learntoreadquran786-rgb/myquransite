@@ -1,0 +1,50 @@
+/* ===================================
+   HERO
+=================================== */
+
+.hero{
+    min-height:100vh;
+    background:url("../images/background/islamic-bg.jpg") center/cover no-repeat;
+    margin-top:80px;
+}
+
+.hero-overlay{
+    width:100%;
+    min-height:100vh;
+    background:rgba(0,45,25,.70);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero-content{
+    width:90%;
+    max-width:1000px;
+    text-align:center;
+    color:#ffffff;
+}
+
+.hero-content h2{
+    color:#FFD700;
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+.hero-content h1{
+    font-size:52px;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    max-width:700px;
+    margin:0 auto 50px;
+    font-size:20px;
+    line-height:1.8;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
